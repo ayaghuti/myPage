@@ -1,0 +1,93 @@
+body {
+  background: grey;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+  min-height: 35px !important;
+  margin-bottom: 0 !important;
+  border-radius: 0 !important;
+}
+.jumbotron {
+  background: linear-gradient(to right, grey, rgb(0, 81, 255));
+  /* background: url(/img/jumbo-bg.jpg); */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 0;
+  min-height: 250px !important;
+  /* justify-content: space-between; */
+  /* align-items: center !important; */
+}
+.jumbotron div h1 {
+  padding-top: 20px;
+}
+/* .jumbotron.container h3 {
+  padding-top: 10px !important;
+  margin-top: 10px !important;
+} */
+
+nav {
+  background: orangered;
+}
+.navbar a {
+  color: white !important;
+  justify-self: right !important;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("/img/education.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#education table {
+  background: pink !important;
+}
+#skills .row {
+  justify-content: space-between !important;
+}
+
+#portfolio ul {
+  list-style-type: none !important;
+  padding: 10px !important;
+  margin: 15px !important;
+  font-size: large;
+}
+#portfolio ul a {
+  color: black;
+  /* background: orangered; */
+}
+#portfolio ul a:hover {
+  text-decoration: none;
+}
+#contact .container .row {
+  justify-items: space-between !important;
+}
+#contact .row ul {
+  list-style-type: none;
+}
+#contact .row a {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* #education{
+  background: black !important;
+} */
+
+footer {
+  min-height: 100px !important;
+  width: 100% !important;
+  padding-top: 30px;
+  background: rgb(250, 73, 50);
+}
